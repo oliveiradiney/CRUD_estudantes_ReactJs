@@ -50,12 +50,12 @@ export default class Create extends Component{
                 <form onSubmit={this.onSubmit}>
                
                     <div className='form-group'>
-                        <label>Name: </label>
+                        <label>Nome: </label>
                         <input type='text' className='form-control' placeholder='Nome do estudante' 
                             value={this.state.nome} onChange={this.setNome}/>
                     </div>
                     <div className='form-group'>
-                        <label>Course: </label>
+                        <label>Curso: </label>
 
                         <input type='text' className='form-control' placeholder='Curso do estudante' value={this.state.curso} onChange={this.setCurso}/>
                     </div>
